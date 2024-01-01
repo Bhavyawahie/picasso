@@ -1,7 +1,5 @@
-package com.example.myapplication;
+package com.example.picasso;
 
-import androidx.activity.result.ActivityResult;
-import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,8 +12,9 @@ import android.os.ParcelFileDescriptor;
 import android.view.View;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
+
+import com.example.myapplication.R;
 
 import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
