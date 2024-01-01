@@ -1,4 +1,4 @@
-package com.example.picasso.ui.theme
+package com.example.myapplication.ui.theme
 
 import android.app.Activity
 import android.os.Build
