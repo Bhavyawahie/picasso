@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -19,6 +20,29 @@
             android:layout_height="wrap_content"
             android:text="Select Image"
             android:onClick="openYourActivity"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sepia"
+            android:onClick="applySepia"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grayscale"
+            android:onClick="applyGrayscale"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="applyToon"
+            android:text="Toon" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="applySketch"
+            android:text="Sketch" />
+
     </LinearLayout>
 
 </ScrollView>
